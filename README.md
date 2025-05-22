@@ -1,4 +1,4 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+# SERIAL IN SERIAL OUT SHIFTREGISTER
 
 **AIM:**
 
@@ -25,7 +25,18 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+/* 
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For difference input combination generate the timing diagram.
+
+*/
 
 **PROGRAM**
 
@@ -33,7 +44,7 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 Developed by: Sukirthana.M
 RegisterNumber: 212224220112
-
+```
 module EXP10(input clk, sin,output reg[0:3] q);
 
 always @(posedge clk)
@@ -44,6 +55,7 @@ q[2] <= q[1];
 q[3] <= q[2];
 end
 endmodule
+```
 */
 
 **RTL LOGIC FOR SISO Shift Register**
